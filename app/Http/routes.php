@@ -12,3 +12,7 @@
 */
 
 Route::get('/', 'HomeController@index');
+
+Route::get('/steamlogin', 'SteamController@getLogin');
+
+Route::get('/checksteam', "SteamController@checkSteam");
